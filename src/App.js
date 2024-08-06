@@ -17,9 +17,9 @@ const AppContainer = styled.div`
   margin-top: '2rem';
 `;
 
-const HeaderContainer = styled.div`
-  margin-top: 1rem;
-`;
+// const HeaderContainer = styled.div`
+//   margin-top: 1rem;
+// `;
 
 const ContentContainer = styled.div`
   flex-grow: 1;

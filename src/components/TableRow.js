@@ -24,7 +24,6 @@ const TableRow = ({ details, additionalFeatures, support, price, onClick }) => {
       <TableCell>
         <button onClick={(e) => {
           e.stopPropagation();
-          onSelect();
         }}>
           Select
         </button>

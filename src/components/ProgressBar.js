@@ -4,7 +4,7 @@ import LinearProgress from '@mui/material/LinearProgress';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import { styled } from '@mui/material/styles';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 // import Footer from './Footer';  // Import the Footer component
 
 const pages = [
@@ -50,13 +50,13 @@ const getPageName = (path) => {
 
 export default function ProgressBar() {
   const location = useLocation();
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const progress = getProgressValue(location.pathname);
   const label = getPageName(location.pathname);
 
  
 
-  const currentPageIndex = pages.findIndex((page) => page.path === location.pathname);
+  // const currentPageIndex = pages.findIndex((page) => page.path === location.pathname);
 
   return (
     <Box sx={{ width: '100%', textAlign: 'center' }}>
